@@ -19,7 +19,7 @@ li {
 
 a:hover {
  background-color: orange;
- font-size: 10px;
+ font-size: 15px;
  font-family: monospace;
  text-decoration: none;
 }
@@ -29,6 +29,10 @@ blockquote{
 }
 img {
   display: none;
+}
+
+body>ul>li>ul>li>ol>li:first-child {
+  font-weight: bold;
 }
 
 body>ul>li:first-child {
