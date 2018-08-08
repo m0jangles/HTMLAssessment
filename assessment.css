@@ -6,3 +6,45 @@ h2,
   font-family: sans-serif;
 
 }
+
+th {
+  font-weight: bold;
+  color: blue;
+  border: 3px solid black;
+}
+
+li {
+  list-style-type: square;
+}
+
+a:hover {
+ background-color: orange;
+ font-size: 10px;
+ font-family: monospace;
+ text-decoration: none;
+}
+blockquote{
+  background-color: blue;
+  color: white;
+}
+img {
+  display: none;
+}
+
+body>ul>li:first-child {
+background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+body>ul>li:last-child {
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+#checkbox-grid li {
+  list-style-type: none;
+}
