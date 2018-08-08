@@ -12,6 +12,11 @@ th {
   color: blue;
   border: 3px solid black;
 }
+td {
+
+  color: black;
+  border: 3px solid black;
+}
 
 li {
   list-style-type: square;
